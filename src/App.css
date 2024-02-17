@@ -1,5 +1,36 @@
+:root {
+  --white-color: #FFFFFF;
+  --black-color:#0c0c0c;
+  --secondary-color: #6c757d; 
+  --accent-color: #53ACFF; 
+  --orange-color: #D94111;
+  --green-color: #118F4B;
+  --grey-color: #414040;
+  --dark-grey:#252525;
+  --darkest-grey:#131313; 
+  --light-grey:#313131;
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--dark-grey);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+h1,h2.h3,h4,h5,h6{
+  font-family: "Poppins",sans-serif;
+  font-weight: 700;
+}
+.page-container{
+  display: flex;
+  width: 92vw;
+  margin-left: auto;
 }
 
 .App-logo {
